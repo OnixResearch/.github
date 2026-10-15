@@ -1,0 +1,48 @@
+name: Bug report
+description: Report a reproducible problem in this repository.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use the affected project's tracker. Check its README and contribution instructions first.
+        Redact private data and credentials. Do not post vulnerability details in public issues; follow the project's security reporting instructions instead.
+  - type: input
+    id: revision
+    attributes:
+      label: Commit or release
+      description: Include the branch and exact commit or released version.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, architecture, toolchain, and relevant configuration. Omit private host details.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Minimal reproduction
+      description: Give the smallest input and exact commands or steps that reproduce the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: Describe what should happen.
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: Observed behavior
+      description: Describe what actually happens, including relevant errors.
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Redacted diagnostics
+      description: Add relevant output or screenshots only after removing secrets and private data.

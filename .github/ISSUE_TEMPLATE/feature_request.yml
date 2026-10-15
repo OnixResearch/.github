@@ -1,0 +1,32 @@
+name: Feature proposal
+description: Propose a focused behavior change for this repository.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Check existing issues, the README, and contribution instructions before proposing a change.
+        Use the affected project's tracker. Keep private information out of the proposal.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or use case
+      description: Explain the concrete problem and who encounters it.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+      description: Describe the desired user-visible behavior and its scope.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Describe existing approaches or workarounds and why they are insufficient.
+  - type: textarea
+    id: impact
+    attributes:
+      label: Compatibility and verification
+      description: Note affected APIs or workflows, migration concerns, and how the change could be verified.
