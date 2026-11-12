@@ -12,6 +12,7 @@ Languages, build tools, and repository workflows for systems software.
 | [Cairn](https://github.com/OnixResearch/cairn-public) | Repository lifecycle workflows with a native `.cairn/` layout and Nickel policy. |
 | [Terrane](https://github.com/OnixResearch/terrane) | Verified-logic building blocks with explicit specifications and assumptions. |
 | [Nickel Export](https://github.com/OnixResearch/nickel-export) | Deterministic Nickel exports with content identities, receipts, and freshness manifests. |
+| [Kiln](https://github.com/OnixResearch/kiln) | A provider-neutral CI control plane with exact-revision results, replayable state, and replaceable providers. |
 
 [Browse all public repositories](https://github.com/orgs/OnixResearch/repositories).
 
